@@ -1,3 +1,5 @@
+// ignore_for_file: non_constant_identifier_names
+
 import 'dart:io';
 
 void main() {
@@ -28,5 +30,5 @@ Future method2() async {
 }
 
 void method3(String data_from_method2) {
-  print('method 3 completed, received ${data_from_method2}');
+  print('method 3 completed, received $data_from_method2');
 }
